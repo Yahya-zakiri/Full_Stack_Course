@@ -1,0 +1,80 @@
+
+<!--
+    Author ----- Ahmad Yahya Zakiri;
+    Date ------ 10-20-2025;
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Feedback Form</h1>
+        <p>Thank you for staying with us. Please provide feedback on your recent stay.</p>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="full-name">Name (required):</label>
+                <input required type="text" id="full-name" name="name" placeholder="e.g. Ahmad" size="20">
+
+                <label for="email">Email address (required):</label>
+                <input required type="email" name="email" id="email" placeholder="example@email.com" size="20">
+                <label for="age">Age (optional):</label>
+                <input type="number" min=3 max=100 id="age">
+            </fieldset>
+
+            <fieldset>
+                <legend>Was this your first time at our hotel?</legend>
+                <input type="radio" name="decide" id="yes" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="decide" id="no" value="No">
+                <label for="no">No</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Why did you choose to stay at our hotel?</legend>
+                <input type="checkbox" name="ads" id="ads" value="yes">
+                <label for="ads">Social Media Ads</label>
+                <input type="checkbox" name="recommendation" id="recommendation" value="yes">
+                <label for="recommendation">Personal Recommendation</label>
+                <input type="checkbox" name="location" id="location" value="yes">
+                <label for="location">Location</label>
+                <input checked type="checkbox" name="reputation" id="reputation" value="yes">
+                <label for="reputation">Reputation</label>
+                <input type="checkbox" name="price" id="price" value="price">
+            </fieldset>
+
+            <fieldset>
+                <legend>Ratings</legend>
+                <label for="service">How was the service?</label>
+                <select name="service" id="service">
+                    <option value="poor">Poor</option>
+                    <option value="satisfactory">Satisfactory</option>
+                    <option value="good">Good</option>
+                    <option value="very-good">Very Good</option>
+                    <option selected  value="excellent">Excellent</option>
+                </select>
+
+                <label for="food">How was the food?</label>
+                <select name="food" id="food">
+                    <option value="poor">Poor</option>
+                    <option value="satisfactory">Satisfactory</option>
+                    <option value="good">Good</option>
+                    <option value="very-good">Very Good</option>
+                    <option selected  value="excellent">Excellent</option>
+                </select>
+            </fieldset>
+
+            <label for="comment">Other Comments?</label>
+            <textarea name="comment" id="comment" rows="10" cols="20"></textarea>
+            <button type="submit">Submit</button>
+        </form> 
+    </main>
+</body>
+</html>
