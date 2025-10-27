@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(192, 94, 176);
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.business-card {
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid black 2px;
+    margin-top: 60px;
+}
+
+img {
+    
+    max-width: 200px;
+    border: solid black 2px;
+}
+
+p {
+    margin: 10px;
+}
+
+.full-name {
+    font-size: 25px;
+}
+
+.job, .company{
+    color: rgb(110, 110, 110);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin: 25px;
+}
+
+hr {
+    margin: 25px 0px;
+}
