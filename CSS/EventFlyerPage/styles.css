@@ -1,0 +1,27 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65vw;
+    min-height: calc(100% - padding-bottom - padding-top);
+}
+
+header{
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    width: 30%;
+}
+
+main{
+    text-align: center;
+}
+
+hr{
+    height: 2%;
+}
