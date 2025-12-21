@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(33, 34, 60);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.form-container{
+    margin: 10vh auto;
+    background-color: rgba(255, 255, 255, 0.725);
+    max-width: 300px;
+    min-height: 50vh;
+    border-radius: 10px;
+    padding: 4vh 5px 4vh 5px;
+    text-align: center;
+}
+
+input, textarea{
+    display: block;
+    margin: 1vh 8px 5vh 0;
+    width: 90%;
+    height: 3em;
+    border: 2px solid rgb(33, 34, 60);
+    border-radius: 10px;
+
+}
+
+label{
+    font-size: 1.1rem;
+}
+
+input[type="submit"]{
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(33, 34, 60);
+    border: 2px solid white;
+    color: white;
+    font-size: 1.02rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(61, 63, 101);
+}
+
+textarea{
+    max-width: 280px;
+    min-width: 90%;
+    max-height: 3em;
+    min-height: 3em;
+}
