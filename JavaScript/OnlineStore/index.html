@@ -1,0 +1,227 @@
+<!-- @format -->
+
+<!doctype html>
+<html
+	lang="fa"
+	dir="rtl"
+>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Bazarak</title>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="CSS_Files/style.css"
+		/>
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container nav">
+				<div class="logo">بازارک</div>
+
+				<nav class="nav-links">
+					<a href="#Hero">خانه</a>
+					<a href="#products">فروشگاه</a>
+					<a href="#footerInformation">ارتباط با ما</a>
+				</nav>
+
+				<div class="nav-actions">
+					<button
+						id="darkToggle"
+						class="icon-btn"
+					>
+						<span class="material-symbols-outlined">dark_mode</span>
+					</button>
+
+					<button
+						id="cartBtn"
+						class="icon-btn cart-btn"
+					>
+						<span class="material-symbols-outlined">shopping_cart</span>
+						<span id="cartCount">0</span>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section
+				id="Hero"
+				class="hero"
+			>
+				<div class="container hero-content">
+					<h1>ساده واضح سریع</h1>
+					<p>اجناس مورد علاقه شما در یک مکان</p>
+					<a
+						class="primary-btn"
+						href="#products"
+						>خرید</a
+					>
+				</div>
+
+				<div class="scrollBar">
+					<div class="scroll-track">
+						<ul>
+							<li><a href="#homeFurniture">لوازم خانه</a></li>
+							<li><a href="#electric">لوازم برقی</a></li>
+							<li><a href="#mobile">موبایل</a></li>
+							<li><a href="#computer">کمپیوتر</a></li>
+							<li><a href="#gajets">گجت های دلچسپ</a></li>
+							<li><a href="#toys">اسباب بازی کودکان</a></li>
+							<li><a href="#">لوازم آرایشی</a></li>
+							<li><a href="#">خدمات</a></li>
+							<li><a href="#">مواد آموزشی</a></li>
+							<li><a href="#">مواد خوراکی</a></li>
+							<li><a href="#">صحت و سلامتی</a></li>
+						</ul>
+
+						<ul>
+							<li><a href="#homeFurniture">لوازم خانه</a></li>
+							<li><a href="#electric">لوازم برقی</a></li>
+							<li><a href="#mobile">موبایل</a></li>
+							<li><a href="#computer">کمپیوتر</a></li>
+							<li><a href="#gajets">گجت های دلچسپ</a></li>
+							<li><a href="#toys">اسباب بازی کودکان</a></li>
+							<li><a href="#">لوازم آرایشی</a></li>
+							<li><a href="#">خدمات</a></li>
+							<li><a href="#">مواد آموزشی</a></li>
+							<li><a href="#">مواد خوراکی</a></li>
+							<li><a href="#">صحت و سلامتی</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section
+				id="products"
+				class="products-section container"
+			>
+				<div id="productsContainer"></div>
+			</section>
+		</main>
+
+		<div
+			id="cartSidebar"
+			class="cart-sidebar"
+		>
+			<h3>سبد شما</h3>
+
+			<div class="cart-header-row">
+				<span>نام محصول</span>
+				<div class="cart-header-controls">
+					<span>قیمت</span>
+					<span>تعداد</span>
+				</div>
+			</div>
+
+			<div id="cartItems"></div>
+
+			<div class="cart-footer">
+				<h4>مجموع: <span id="cartTotal">0 afg</span></h4>
+				<button
+					class="primary-btn"
+					id="checkoutBtn"
+				>
+					خرید
+				</button>
+			</div>
+		</div>
+
+		<footer
+			class="footer"
+			id="footerInformation"
+		>
+			<div class="container footer-info">
+				<div class="footer-index">
+					<h4>با ما بیشتر آشنا شوید</h4>
+					<ul>
+						<li>
+							<a href="#">
+								<span class="footer-icons">
+									<img
+										src="/icons/xIcon.svg"
+										alt="X icon"
+									/>
+								</span>
+								ایکس
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<span class="footer-icons">
+									<img
+										src="/icons/facebookIcon.svg"
+										alt="facebook icon"
+									/>
+								</span>
+								فیسبوک
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<span class="footer-icons">
+									<img
+										src="/icons/instagramIcon.svg"
+										alt="instagram icon"
+									/>
+								</span>
+								انستاگرام
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<span class="footer-icons">
+									<img
+										src="/icons/gmailIcon.png"
+										alt="gmail icon"
+									/>
+								</span>
+								ایمیل
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-index">
+					<h4>سایر خدمات ما</h4>
+					<ul>
+						<li><a href="#">طراحی وبسایت</a></li>
+						<li><a href="#">گرافیک دیزایننگ</a></li>
+						<li><a href="#">همکار تجاری</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-index">
+					<h4>همکار ما باشید</h4>
+					<ul>
+						<li><a href="#">اعلانات کاریابی</a></li>
+						<li><a href="#">فروش در وبسایت</a></li>
+						<li><a href="#">سهام شرکت</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="footer-bottom">
+				<p>© 2026 Developed by A.Yahya Zakiri. All rights reserved.</p>
+			</div>
+		</footer>
+
+		<script src="JavaScriptFiles/script.js"></script>
+	</body>
+</html>
